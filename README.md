@@ -12,7 +12,7 @@ Dibuat dengan Flutter · Bahasa Indonesia · Tanpa akun · Tanpa internet
 ![Dart](https://img.shields.io/badge/Dart-3.13-0175C2?logo=dart&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
 ![Offline](https://img.shields.io/badge/Mode-100%25%20Offline-006948)
-![Tests](https://img.shields.io/badge/Tes-181%20lulus-006948)
+![Tests](https://img.shields.io/badge/Tes-186%20lulus-006948)
 ![Bahasa](https://img.shields.io/badge/Bahasa-Indonesia-red)
 
 </div>
@@ -96,7 +96,7 @@ Enam mode: persen dari nilai, berapa persen, kenaikan, penurunan, selisih, dan p
 - **Riwayat**: simpan hasil, saring per jenis, hitung ulang, salin, bagikan.
 - **Alat Favorit**: pilih dan urutkan alat di Beranda; tersimpan di perangkat.
 - **Kartu "Hemat Pekan Ini"** yang menjumlahkan penghematan 7 hari terakhir.
-- **Panduan Penggunaan** di dalam aplikasi, lengkap dengan pencarian dan tanya jawab.
+- **Panduan Penggunaan** di dalam aplikasi: mulai cepat, cara pakai tiap alat, tips belanja hemat, dan tanya jawab, dengan pencarian.
 - **Tema** Sistem, Terang, atau Gelap.
 - **Format angka** Indonesia (`1.234,56`) atau Internasional (`1,234.56`) dan jumlah desimal yang bisa diatur.
 - **Tentang dan Kredit** dengan tautan langsung ke WhatsApp, email, dan website pengembang.
@@ -195,7 +195,7 @@ Aturan rumus tiap kalkulator didokumentasikan di komentar kode pada folder [`lib
 
 ```bash
 flutter analyze   # analisis statis
-flutter test      # 181 tes: unit (domain), repositori, view model, dan widget
+flutter test      # 186 tes: unit (domain), repositori, view model, dan widget
 ```
 
 Cakupan: logika hitung, penyimpanan SQLite, view model, alur layar utama, konsistensi navigasi bawah pada semua layar, favorit, panduan, dan layar kredit.

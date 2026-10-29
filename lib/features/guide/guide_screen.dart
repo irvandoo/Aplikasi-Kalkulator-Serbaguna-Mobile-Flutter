@@ -27,6 +27,11 @@ class _GuideScreenState extends State<GuideScreen> {
         t.tips.any((s) => s.toLowerCase().contains(q));
   }
 
+  bool _matchesTip(String tip) {
+    final q = _query.trim().toLowerCase();
+    return q.isEmpty || tip.toLowerCase().contains(q);
+  }
+
   bool _matchesFaq(GuideFaq f) {
     final q = _query.trim().toLowerCase();
     if (q.isEmpty) return true;
@@ -42,7 +47,11 @@ class _GuideScreenState extends State<GuideScreen> {
     final tools = GuideContent.tools.where(_matches).toList();
     final features = GuideContent.features.where(_matches).toList();
     final faq = GuideContent.faq.where(_matchesFaq).toList();
-    final empty = tools.isEmpty && features.isEmpty && faq.isEmpty;
+    final smartTips = GuideContent.smartTips.where(_matchesTip).toList();
+    final empty = tools.isEmpty &&
+        features.isEmpty &&
+        faq.isEmpty &&
+        smartTips.isEmpty;
 
     Widget heading(String label) => Padding(
           padding: const EdgeInsets.only(top: 20, bottom: 8, left: 4),
@@ -101,6 +110,30 @@ class _GuideScreenState extends State<GuideScreen> {
           if (features.isNotEmpty) ...[
             heading('Fitur Pendukung'),
             for (final t in features) _TopicCard(topic: t),
+          ],
+          if (smartTips.isNotEmpty) ...[
+            heading('Tips Belanja Hemat'),
+            SectionCard(
+              key: const Key('smartTips'),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  for (final tip in smartTips)
+                    Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 4),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Icon(Icons.lightbulb_outline,
+                              size: 18, color: scheme.primary),
+                          const SizedBox(width: 10),
+                          Expanded(child: Text(tip)),
+                        ],
+                      ),
+                    ),
+                ],
+              ),
+            ),
           ],
           if (faq.isNotEmpty) ...[
             heading('Tanya Jawab'),

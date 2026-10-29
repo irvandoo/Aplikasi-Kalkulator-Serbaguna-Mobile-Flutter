@@ -275,12 +275,19 @@ void main() {
       await tester.pumpAndSettle();
       expect(find.text('Panduan Penggunaan'), findsWidgets);
       expect(find.byKey(const Key('quickStart')), findsOneWidget);
+      await tester.scrollUntilVisible(find.text('Patungan Rame'), 300,
+          scrollable: find.byType(Scrollable).first);
       expect(find.text('Patungan Rame'), findsOneWidget);
+      await tester.scrollUntilVisible(find.text('Diskon & Promo'), -300,
+          scrollable: find.byType(Scrollable).first);
 
       await tester.tap(find.text('Diskon & Promo'));
       await tester.pumpAndSettle();
       expect(find.textContaining('Tambah tahap'), findsWidgets);
 
+      await tester.scrollUntilVisible(
+          find.byKey(const Key('guideSearch')), -500,
+          scrollable: find.byType(Scrollable).first);
       await tester.enterText(find.byKey(const Key('guideSearch')), 'anggaran');
       await tester.pumpAndSettle();
       expect(find.text('Total Belanja'), findsOneWidget);
