@@ -1,0 +1,30 @@
+KEBIJAKAN PRIVASI — KALKULATOR SERBAGUNA
+
+Terakhir diperbarui: 29 Oktober 2026
+(Draf. Pemilik aplikasi wajib meninjau dan melengkapi kontak sebelum rilis Google Play.)
+
+1. Data yang disimpan di perangkat Anda
+Aplikasi menyimpan data berikut HANYA di perangkat Anda (penyimpanan lokal):
+• Riwayat perhitungan (jenis, masukan, hasil, waktu).
+• Daftar belanja, barang, harga, jumlah, dan anggaran yang Anda buat.
+• Preferensi tampilan: tema, format angka, jumlah desimal.
+Data ini tidak dikirim ke server kami. Kami tidak memiliki server untuk aplikasi ini dan tidak mewajibkan akun.
+Anda dapat menghapus riwayat dan daftar belanja kapan saja dari dalam aplikasi, atau menghapus semua data dengan menghapus data/uninstall aplikasi.
+
+2. Data pribadi
+Aplikasi tidak meminta nama, email, nomor telepon, lokasi, kontak, atau izin sensitif lainnya.
+
+3. Iklan (Google AdMob)
+Aplikasi dapat menampilkan iklan dari Google AdMob. AdMob dapat mengumpulkan dan memakai pengenal perangkat (misalnya ID iklan), alamat IP, dan data penggunaan iklan untuk menayangkan serta mengukur iklan, sesuai kebijakan Google. Di wilayah yang mewajibkan, aplikasi meminta persetujuan Anda terlebih dahulu melalui formulir persetujuan (Google UMP). Informasi lebih lanjut: https://policies.google.com/technologies/ads
+
+4. Berbagi hasil
+Fitur "Bagikan" dan "Salin" hanya bekerja atas perintah Anda dan mengirim teks hasil ke aplikasi yang Anda pilih.
+
+5. Anak-anak
+Aplikasi tidak ditujukan khusus untuk anak di bawah 13 tahun.
+
+6. Perubahan kebijakan
+Perubahan kebijakan akan dicantumkan di halaman ini beserta tanggal pembaruan.
+
+7. Kontak
+[Isi dengan email kontak pengembang sebelum rilis]

@@ -1,0 +1,346 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "inverse-surface": "#283044", "surface-variant": "#dae2fd", "secondary": "#006a61", "on-surface": "#131b2e", "on-primary-fixed": "#002114", "on-primary-container": "#f5fff7", "on-background": "#131b2e", "surface-container": "#eaedff", "on-tertiary": "#ffffff", "surface-container-lowest": "#ffffff", "outline": "#6d7a72", "on-error-container": "#93000a", "on-tertiary-container": "#f5fff6", "tertiary-fixed-dim": "#4edea3", "surface-container-high": "#e2e7ff", "on-secondary": "#ffffff", "surface-bright": "#faf8ff", "on-secondary-fixed": "#00201d", "surface-container-highest": "#dae2fd", "surface-tint": "#006c4a", "on-surface-variant": "#3d4a42", "outline-variant": "#bccac0", "tertiary-container": "#00855b", "secondary-container": "#86f2e4", "on-secondary-fixed-variant": "#005049", "surface-container-low": "#f2f3ff", "on-primary": "#ffffff", "on-secondary-container": "#006f66", "primary-fixed": "#85f8c4", "surface": "#faf8ff", "on-primary-fixed-variant": "#005137", "surface-dim": "#d2d9f4", "inverse-on-surface": "#eef0ff", "primary-container": "#00855d", "tertiary": "#006947", "inverse-primary": "#68dba9", "primary": "#006948", "background": "#faf8ff", "secondary-fixed-dim": "#6bd8cb", "on-tertiary-fixed-variant": "#005236", "tertiary-fixed": "#6ffbbe", "on-error": "#ffffff", "primary-fixed-dim": "#68dba9", "on-tertiary-fixed": "#002113", "error": "#ba1a1a", "error-container": "#ffdad6", "secondary-fixed": "#89f5e7" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1rem", "space-xl": "1.5rem", "space-xs": "0.25rem", "gutter": "0.75rem", "space-sm": "0.5rem", "space-md": "0.75rem", "margin": "1rem" }, "fontFamily": { "label-md": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "numeric-keypad": ["Plus Jakarta Sans"], "display-lg-mobile": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"] }, "fontSize": { "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "display-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "numeric-keypad": ["22px", { "lineHeight": "28px", "fontWeight": "600" }], "display-lg-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-lg": ["15px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;min-height:100%;background-color:#faf8ff;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}.material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 500,'GRAD' 0,'opsz' 24;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="flex justify-between items-center px-margin pt-1 text-on-surface select-none"><span class="font-label-md text-label-md text-on-surface font-semibold">09:41</span><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[16px] leading-none text-on-surface">signal_cellular_alt</span><span class="material-symbols-outlined text-[16px] leading-none text-on-surface">wifi</span><span class="material-symbols-outlined text-[18px] leading-none text-on-surface">battery_full</span></div></div><div class="h-16 px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-gutter min-w-0"><img alt="Logo Kalkulator Serbaguna" class="w-9 h-9 rounded-xl object-contain flex-shrink-0 shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCx0au0T-rCuiYUp6Ywiw-OeaioUCIGHDzChRabHr2ehf9IoCMyfhOdLnofxLSDBZ2_HoZofV_ymqCqu9MnZ4IzCug80tuJrsTKnNi7Lzh_0EUYRuiTWfx1gob4dbpeVz_ZFnX5L6IvdNDuWtedCY-R1U5T4WTlQvaZzG7nQzDFlEMJPGT_Li58AGCtJ1yW7HAdglRz6cMPxkkAYdJKJ2hc-yQY4rtxKay4xb7hgV35wczp9Xi5Trcu_w"><div class="flex flex-col min-w-0"><span class="font-headline-sm text-headline-sm text-on-surface truncate">Kalkulator Serbaguna</span><span class="font-label-sm text-label-sm text-primary flex items-center gap-1 truncate"><span class="w-1.5 h-1.5 rounded-full bg-primary inline-block"></span>Belanja</span></div></div><div class="flex items-center gap-gutter flex-shrink-0"><button aria-label="Riwayat Terakhir" class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[22px]">history</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col w-full bg-surface pt-24 pb-24"><div class="flex flex-col w-full px-margin pb-28 gap-space-md select-none">
+<!-- Top Active Shopping List Selector Card -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="material-symbols-outlined text-primary text-[20px] flex-shrink-0" style="font-variation-settings: 'FILL' 1;">shopping_cart</span>
+<button class="flex items-center gap-1 font-headline-sm text-headline-sm text-on-surface truncate hover:text-primary transition-colors text-left" id="list-selector-btn">
+<span class="truncate">Belanja Mingguan</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant flex-shrink-0">expand_more</span>
+</button>
+</div>
+<span class="inline-flex items-center px-2 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm flex-shrink-0">
+        4 Barang
+      </span>
+</div>
+<div class="flex items-center justify-between text-body-sm text-on-surface-variant pt-1">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">storefront</span>
+        Supermarket &amp; Pasar Pagi
+      </span>
+<span class="flex items-center gap-1 text-primary font-semibold cursor-pointer">
+<span class="material-symbols-outlined text-[16px]">edit_note</span>
+        Ganti Daftar
+      </span>
+</div>
+</div>
+<!-- Budget Tracker Card (Visual Progress Bar) -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Batas Anggaran</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Rp 300.000</span>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Sisa Uang</span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-label-md">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+          Rp 82.000 (Aman)
+        </span>
+</div>
+</div>
+<!-- Progress Meter -->
+<div class="w-full flex flex-col gap-1.5 mt-1">
+<div class="w-full h-3 rounded-full bg-surface-container-high overflow-hidden relative">
+<div class="h-full bg-primary rounded-full transition-all duration-300" id="budget-progress-bar" style="width: 72.7%;"></div>
+</div>
+<div class="flex justify-between items-center text-body-sm font-label-sm">
+<span class="text-on-surface-variant flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-primary inline-block"></span>
+          Terpakai: <strong class="text-on-surface font-semibold" id="used-budget-label">Rp 218.000</strong>
+</span>
+<span class="text-primary font-semibold" id="budget-percentage-label">72.7% Terpakai</span>
+</div>
+</div>
+<div class="mt-1 p-2 rounded-lg bg-surface-container-low flex items-center justify-between text-body-sm text-on-surface-variant">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[18px]">savings</span>
+        Penghematan diskon tercatat
+      </span>
+<span class="font-semibold text-primary">+Rp 14.500</span>
+</div>
+</div>
+<!-- Shopping Items List Header -->
+<div class="flex items-center justify-between mt-1">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm text-on-surface">Daftar Belanjaan</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" id="checked-count-label">(2 dari 4 selesai)</span>
+</div>
+<button class="font-label-md text-label-md text-secondary hover:text-primary transition-colors flex items-center gap-0.5" id="quick-clear-btn">
+<span class="material-symbols-outlined text-[16px]">restart_alt</span>
+      Reset Cek
+    </button>
+</div>
+<!-- Item List -->
+<div class="flex flex-col gap-space-sm" id="shopping-list-container">
+<!-- Item 1 (Checked) -->
+<div class="shopping-item w-full bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center gap-3 transition-all" data-checked="true" data-price="34000">
+<button class="item-checkbox w-7 h-7 rounded-lg bg-primary text-on-primary flex items-center justify-center flex-shrink-0 transition-transform active:scale-95 shadow-sm">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">check</span>
+</button>
+<div class="flex-1 min-w-0 flex flex-col gap-1">
+<div class="flex items-start justify-between gap-2">
+<span class="item-title font-label-lg text-label-lg text-on-surface line-through opacity-70 truncate">Minyak Goreng 2L</span>
+<span class="item-total-price font-label-lg text-label-lg text-primary font-bold whitespace-nowrap">Rp 68.000</span>
+</div>
+<div class="flex items-center justify-between text-body-sm text-on-surface-variant">
+<span class="">@ Rp 34.000 / pch</span>
+<div class="flex items-center gap-2 bg-surface-container-low px-2 py-0.5 rounded-lg">
+<button class="qty-btn qty-minus w-5 h-5 flex items-center justify-center rounded text-on-surface-variant hover:text-on-surface font-bold text-sm">-</button>
+<span class="qty-display font-label-md text-label-md text-on-surface font-semibold min-w-[12px] text-center">2</span>
+<button class="qty-btn qty-plus w-5 h-5 flex items-center justify-center rounded text-on-surface-variant hover:text-on-surface font-bold text-sm">+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Item 2 (Checked) -->
+<div class="shopping-item w-full bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center gap-3 transition-all" data-checked="true" data-price="72000">
+<button class="item-checkbox w-7 h-7 rounded-lg bg-primary text-on-primary flex items-center justify-center flex-shrink-0 transition-transform active:scale-95 shadow-sm">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">check</span>
+</button>
+<div class="flex-1 min-w-0 flex flex-col gap-1">
+<div class="flex items-start justify-between gap-2">
+<span class="item-title font-label-lg text-label-lg text-on-surface line-through opacity-70 truncate">Beras Premium 5kg</span>
+<span class="item-total-price font-label-lg text-label-lg text-primary font-bold whitespace-nowrap">Rp 72.000</span>
+</div>
+<div class="flex items-center justify-between text-body-sm text-on-surface-variant">
+<span class="">@ Rp 72.000 / zak</span>
+<div class="flex items-center gap-2 bg-surface-container-low px-2 py-0.5 rounded-lg">
+<button class="qty-btn qty-minus w-5 h-5 flex items-center justify-center rounded text-on-surface-variant hover:text-on-surface font-bold text-sm">-</button>
+<span class="qty-display font-label-md text-label-md text-on-surface font-semibold min-w-[12px] text-center">1</span>
+<button class="qty-btn qty-plus w-5 h-5 flex items-center justify-center rounded text-on-surface-variant hover:text-on-surface font-bold text-sm">+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Item 3 (Unchecked) -->
+<div class="shopping-item w-full bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center gap-3 transition-all" data-checked="false" data-price="48000">
+<button class="item-checkbox w-7 h-7 rounded-lg bg-surface-container-high text-transparent flex items-center justify-center flex-shrink-0 transition-transform active:scale-95 shadow-sm hover:bg-surface-variant">
+<span class="material-symbols-outlined text-[20px]">check</span>
+</button>
+<div class="flex-1 min-w-0 flex flex-col gap-1">
+<div class="flex items-start justify-between gap-2">
+<span class="item-title font-label-lg text-label-lg text-on-surface truncate">Dada Ayam Fillet 1kg</span>
+<span class="item-total-price font-label-lg text-label-lg text-on-surface font-bold whitespace-nowrap">Rp 48.000</span>
+</div>
+<div class="flex items-center justify-between text-body-sm text-on-surface-variant">
+<span class="">@ Rp 48.000 / kg</span>
+<div class="flex items-center gap-2 bg-surface-container-low px-2 py-0.5 rounded-lg">
+<button class="qty-btn qty-minus w-5 h-5 flex items-center justify-center rounded text-on-surface-variant hover:text-on-surface font-bold text-sm">-</button>
+<span class="qty-display font-label-md text-label-md text-on-surface font-semibold min-w-[12px] text-center">1</span>
+<button class="qty-btn qty-plus w-5 h-5 flex items-center justify-center rounded text-on-surface-variant hover:text-on-surface font-bold text-sm">+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Item 4 (Unchecked) -->
+<div class="shopping-item w-full bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center gap-3 transition-all" data-checked="false" data-price="30000">
+<button class="item-checkbox w-7 h-7 rounded-lg bg-surface-container-high text-transparent flex items-center justify-center flex-shrink-0 transition-transform active:scale-95 shadow-sm hover:bg-surface-variant">
+<span class="material-symbols-outlined text-[20px]">check</span>
+</button>
+<div class="flex-1 min-w-0 flex flex-col gap-1">
+<div class="flex items-start justify-between gap-2">
+<span class="item-title font-label-lg text-label-lg text-on-surface truncate">Telur Ayam Negeri 1kg</span>
+<span class="item-total-price font-label-lg text-label-lg text-on-surface font-bold whitespace-nowrap">Rp 30.000</span>
+</div>
+<div class="flex items-center justify-between text-body-sm text-on-surface-variant">
+<span class="">@ Rp 30.000 / kg</span>
+<div class="flex items-center gap-2 bg-surface-container-low px-2 py-0.5 rounded-lg">
+<button class="qty-btn qty-minus w-5 h-5 flex items-center justify-center rounded text-on-surface-variant hover:text-on-surface font-bold text-sm">-</button>
+<span class="qty-display font-label-md text-label-md text-on-surface font-semibold min-w-[12px] text-center">1</span>
+<button class="qty-btn qty-plus w-5 h-5 flex items-center justify-center rounded text-on-surface-variant hover:text-on-surface font-bold text-sm">+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Shopping Context / Inspiration Tip Card -->
+<div class="w-full bg-surface-container-high rounded-xl p-space-md flex items-center gap-space-sm mt-1">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">lightbulb</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface">Tips Belanja Hemat</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Beli kebutuhan pokok di awal bulan untuk dapat promo grosir.</span>
+</div>
+</div>
+<!-- Bottom Sticky Summary & Action Bar -->
+<div class="fixed bottom-20 left-0 right-0 max-w-lg mx-auto px-margin z-40">
+<div class="w-full bg-surface-container-lowest/95 backdrop-blur-md rounded-2xl p-space-md shadow-xl flex flex-col gap-space-sm">
+<!-- Subtotal and Grand Total Breakdown -->
+<div class="flex items-center justify-between text-body-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+            Di Keranjang (Centang)
+          </span>
+<span class="font-label-lg text-label-lg text-primary font-bold" id="checked-total-display">Rp 140.000</span>
+</div>
+<div class="h-8 w-px bg-surface-container-high"></div>
+<div class="flex flex-col items-end">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Estimasi Semua Barang</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold" id="grand-total-display">Rp 218.000</span>
+</div>
+</div>
+<!-- Add Item CTA Button -->
+<button class="w-full h-12 bg-primary text-on-primary rounded-xl font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-md hover:bg-primary-container active:scale-[0.99] transition-all" id="add-item-modal-btn">
+<span class="material-symbols-outlined text-[22px]">add_circle</span>
+<span class="">+ Tambah Barang Belanja</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+  (function initShoppingCalculator() {
+    const budgetLimit = 300000;
+    const shoppingListContainer = document.getElementById('shopping-list-container');
+    const checkedTotalDisplay = document.getElementById('checked-total-display');
+    const grandTotalDisplay = document.getElementById('grand-total-display');
+    const usedBudgetLabel = document.getElementById('used-budget-label');
+    const budgetProgressBar = document.getElementById('budget-progress-bar');
+    const budgetPercentageLabel = document.getElementById('budget-percentage-label');
+    const checkedCountLabel = document.getElementById('checked-count-label');
+    const quickClearBtn = document.getElementById('quick-clear-btn');
+
+    function formatRupiah(num) {
+      return 'Rp ' + num.toLocaleString('id-ID');
+    }
+
+    function calculateTotals() {
+      const items = shoppingListContainer.querySelectorAll('.shopping-item');
+      let grandTotal = 0;
+      let checkedTotal = 0;
+      let checkedCount = 0;
+
+      items.forEach(item => {
+        const price = parseInt(item.getAttribute('data-price') || '0', 10);
+        const qtySpan = item.querySelector('.qty-display');
+        const qty = parseInt(qtySpan ? qtySpan.textContent : '1', 10);
+        const itemSum = price * qty;
+        
+        const isChecked = item.getAttribute('data-checked') === 'true';
+        grandTotal += itemSum;
+        if (isChecked) {
+          checkedTotal += itemSum;
+          checkedCount++;
+        }
+
+        const totalItemEl = item.querySelector('.item-total-price');
+        if (totalItemEl) {
+          totalItemEl.textContent = formatRupiah(itemSum);
+        }
+      });
+
+      // Update Displays
+      checkedTotalDisplay.textContent = formatRupiah(checkedTotal);
+      grandTotalDisplay.textContent = formatRupiah(grandTotal);
+      usedBudgetLabel.textContent = formatRupiah(grandTotal);
+      checkedCountLabel.textContent = '(' + checkedCount + ' dari ' + items.length + ' selesai)';
+
+      // Update Progress Bar
+      const percentage = Math.min(100, (grandTotal / budgetLimit) * 100);
+      budgetProgressBar.style.width = percentage.toFixed(1) + '%';
+      budgetPercentageLabel.textContent = percentage.toFixed(1) + '% Terpakai';
+
+      if (percentage > 90) {
+        budgetProgressBar.classList.remove('bg-primary');
+        budgetProgressBar.classList.add('bg-error');
+      } else {
+        budgetProgressBar.classList.remove('bg-error');
+        budgetProgressBar.classList.add('bg-primary');
+      }
+    }
+
+    shoppingListContainer.addEventListener('click', function(e) {
+      const target = e.target;
+      const itemRow = target.closest('.shopping-item');
+      if (!itemRow) return;
+
+      // Handle Checkbox Click
+      const checkBtn = target.closest('.item-checkbox');
+      if (checkBtn) {
+        const isChecked = itemRow.getAttribute('data-checked') === 'true';
+        const newCheckedState = !isChecked;
+        itemRow.setAttribute('data-checked', newCheckedState.toString());
+
+        const title = itemRow.querySelector('.item-title');
+        const priceTotal = itemRow.querySelector('.item-total-price');
+
+        if (newCheckedState) {
+          checkBtn.className = 'item-checkbox w-7 h-7 rounded-lg bg-primary text-on-primary flex items-center justify-center flex-shrink-0 transition-transform active:scale-95 shadow-sm';
+          title.classList.add('line-through', 'opacity-70');
+          priceTotal.classList.add('text-primary');
+          priceTotal.classList.remove('text-on-surface');
+        } else {
+          checkBtn.className = 'item-checkbox w-7 h-7 rounded-lg bg-surface-container-high text-transparent flex items-center justify-center flex-shrink-0 transition-transform active:scale-95 shadow-sm hover:bg-surface-variant';
+          title.classList.remove('line-through', 'opacity-70');
+          priceTotal.classList.remove('text-primary');
+          priceTotal.classList.add('text-on-surface');
+        }
+        calculateTotals();
+        return;
+      }
+
+      // Handle Steppers
+      const minusBtn = target.closest('.qty-minus');
+      const plusBtn = target.closest('.qty-plus');
+      const qtySpan = itemRow.querySelector('.qty-display');
+      
+      if (minusBtn && qtySpan) {
+        let currentQty = parseInt(qtySpan.textContent, 10);
+        if (currentQty > 1) {
+          qtySpan.textContent = (currentQty - 1).toString();
+          calculateTotals();
+        }
+      } else if (plusBtn && qtySpan) {
+        let currentQty = parseInt(qtySpan.textContent, 10);
+        qtySpan.textContent = (currentQty + 1).toString();
+        calculateTotals();
+      }
+    });
+
+    // Reset Checklist
+    if (quickClearBtn) {
+      quickClearBtn.addEventListener('click', function() {
+        const items = shoppingListContainer.querySelectorAll('.shopping-item');
+        items.forEach(itemRow => {
+          itemRow.setAttribute('data-checked', 'false');
+          const checkBtn = itemRow.querySelector('.item-checkbox');
+          const title = itemRow.querySelector('.item-title');
+          const priceTotal = itemRow.querySelector('.item-total-price');
+
+          if (checkBtn) {
+            checkBtn.className = 'item-checkbox w-7 h-7 rounded-lg bg-surface-container-high text-transparent flex items-center justify-center flex-shrink-0 transition-transform active:scale-95 shadow-sm hover:bg-surface-variant';
+          }
+          if (title) {
+            title.classList.remove('line-through', 'opacity-70');
+          }
+          if (priceTotal) {
+            priceTotal.classList.remove('text-primary');
+            priceTotal.classList.add('text-on-surface');
+          }
+        });
+        calculateTotals();
+      });
+    }
+
+    // Modal dummy feedback
+    const addBtn = document.getElementById('add-item-modal-btn');
+    if (addBtn) {
+      addBtn.addEventListener('click', function() {
+        this.classList.add('scale-95');
+        setTimeout(() => this.classList.remove('scale-95'), 120);
+      });
+    }
+
+    calculateTotals();
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.05)] rounded-t-3xl" data-active-classes="[&amp;&gt;.nav-pill]:bg-secondary-container [&amp;&gt;.nav-pill]:text-on-secondary-container [&amp;&gt;.nav-pill&gt;.material-symbols-outlined]:[font-variation-settings:'FILL'_1] [&amp;&gt;span]:text-primary [&amp;&gt;span]:font-bold"><div class="flex justify-around items-center h-16 px-2"><a class="flex flex-col items-center justify-center min-w-[54px] min-h-[44px] py-1 transition-all group" data-path="beranda" href="#"><div class="nav-pill w-12 h-7 rounded-full flex items-center justify-center text-on-surface-variant transition-colors"><span class="material-symbols-outlined text-[20px]">home</span></div><span class="font-label-sm text-label-sm text-on-surface-variant transition-colors mt-0.5">Beranda</span></a><a class="flex flex-col items-center justify-center min-w-[54px] min-h-[44px] py-1 transition-all group" data-path="kalkulator" href="#"><div class="nav-pill w-12 h-7 rounded-full flex items-center justify-center text-on-surface-variant transition-colors"><span class="material-symbols-outlined text-[20px]">calculate</span></div><span class="font-label-sm text-label-sm text-on-surface-variant transition-colors mt-0.5">Kalkulator</span></a><a class="flex flex-col items-center justify-center min-w-[54px] min-h-[44px] py-1 transition-all group" data-path="diskon" href="#"><div class="nav-pill w-12 h-7 rounded-full flex items-center justify-center text-on-surface-variant transition-colors"><span class="material-symbols-outlined text-[20px]">percent</span></div><span class="font-label-sm text-label-sm text-on-surface-variant transition-colors mt-0.5">Diskon</span></a><a aria-current="page" class="flex flex-col items-center justify-center min-w-[54px] min-h-[44px] py-1 transition-all group [&amp;&gt;.nav-pill]:bg-secondary-container [&amp;&gt;.nav-pill]:text-on-secondary-container [&amp;&gt;.nav-pill&gt;.material-symbols-outlined]:[font-variation-settings:'FILL'_1] [&amp;&gt;span]:text-primary [&amp;&gt;span]:font-bold" data-path="belanja" href="#"><div class="nav-pill w-12 h-7 rounded-full flex items-center justify-center text-on-surface-variant transition-colors"><span class="material-symbols-outlined text-[20px]">shopping_bag</span></div><span class="font-label-sm text-label-sm text-on-surface-variant transition-colors mt-0.5">Belanja</span></a><a class="flex flex-col items-center justify-center min-w-[54px] min-h-[44px] py-1 transition-all group" data-path="banding" href="#"><div class="nav-pill w-12 h-7 rounded-full flex items-center justify-center text-on-surface-variant transition-colors"><span class="material-symbols-outlined text-[20px]">balance</span></div><span class="font-label-sm text-label-sm text-on-surface-variant transition-colors mt-0.5">Banding</span></a></div></nav>
+
+</body></html>
