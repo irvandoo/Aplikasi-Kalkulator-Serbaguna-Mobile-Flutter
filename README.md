@@ -12,7 +12,7 @@ Dibuat dengan Flutter · Bahasa Indonesia · Tanpa akun · Tanpa internet
 ![Dart](https://img.shields.io/badge/Dart-3.13-0175C2?logo=dart&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
 ![Offline](https://img.shields.io/badge/Mode-100%25%20Offline-006948)
-![Tests](https://img.shields.io/badge/Tes-179%20lulus-006948)
+![Tests](https://img.shields.io/badge/Tes-181%20lulus-006948)
 ![Bahasa](https://img.shields.io/badge/Bahasa-Indonesia-red)
 
 </div>
@@ -195,7 +195,7 @@ Aturan rumus tiap kalkulator didokumentasikan di komentar kode pada folder [`lib
 
 ```bash
 flutter analyze   # analisis statis
-flutter test      # 179 tes: unit (domain), repositori, view model, dan widget
+flutter test      # 181 tes: unit (domain), repositori, view model, dan widget
 ```
 
 Cakupan: logika hitung, penyimpanan SQLite, view model, alur layar utama, konsistensi navigasi bawah pada semua layar, favorit, panduan, dan layar kredit.

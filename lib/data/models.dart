@@ -8,10 +8,14 @@ import '../domain/shopping_calculator.dart';
 
 final Random _random = Random();
 
+/// Upper bound for [Random.nextInt] (2^32). A literal, not `1 << 32`: on the
+/// web shifts are 32-bit, so `1 << 32` is 0 and `nextInt` throws.
+const int _randomMax = 4294967296;
+
 /// Generates a stable, practically-unique identifier (no external package).
 String newId() {
   final time = DateTime.now().microsecondsSinceEpoch.toRadixString(36);
-  final rand = _random.nextInt(1 << 32).toRadixString(36).padLeft(7, '0');
+  final rand = _random.nextInt(_randomMax).toRadixString(36).padLeft(7, '0');
   return '$time$rand';
 }
 
